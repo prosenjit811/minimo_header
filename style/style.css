@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+
+/*header start*/
+header{
+	margin: 0;
+	padding: 35px 0;
+	border-bottom: 2px solid #bbbbbb;
+}
+.container{
+	padding: 0;
+	width: 90%;
+/*	border: 1px solid;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	margin: 9px 0 0;
+	width: 6%;
+	float: left;
+/*	border: 1px solid red;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+	float: right;
+/*	border: 1px solid green;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	margin: 0 62px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
